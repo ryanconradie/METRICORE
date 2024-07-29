@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Metricore{% endblock %}
+
+{% block content %}
+<div class="main-content">
+    <h2>Welcome to Metricore</h2>
+    <p>Your universal business intelligence and decision support system powered by advanced AI.</p>
+    <a href="{{ url_for('dashboard') }}">Go to Dashboard</a>
+</div>
+<div class="card-container">
+    <div class="card">
+        <h2>Feature 1</h2>
+        <p>Our system integrates data from all aspects of your operations in real-time.</p>
+    </div>
+    <div class="card">
+        <h2>Feature 2</h2>
+        <p>Uses predictive modeling to forecast market trends.</p>
+    </div>
+    <div class="card">
+        <h2>Feature 3</h2>
+        <p>Provides AI-driven recommendations and much more.</p>
+    </div>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
